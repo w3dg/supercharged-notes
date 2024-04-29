@@ -13,13 +13,18 @@ const NotesHomePage = async () => {
 
   // Get the Backend API User object when you need access to the user's information
   const user = await currentUser();
+
+  if (!user) {
+    redirect("/");
+  }
+
   // Use `user` to render user details or create UI elements
   return (
     <main className="px-6 py-4">
-      <h1 className="text-2xl lg:text-4xl font-bold">
-        <span className="text-neutral-500">Hi</span> {user?.firstName}
+      <h1 className="text-2xl lg:text-3xl font-bold">
+        <span className="text-neutral-500">Hi</span> {user.firstName}
       </h1>
-      <h2 className="text-muted-foreground text-lg lg:text-2xl">Welcome to Supercharged Notes user {user?.id}</h2>
+      <h2 className="text-muted-foreground text-lg lg:text-xl">Welcome to Supercharged Notes user {user.id}</h2>
     </main>
   );
 };

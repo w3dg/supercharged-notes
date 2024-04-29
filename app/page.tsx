@@ -9,11 +9,12 @@ import notesSVG from "./undraw_taking_notes_re_bnaf.svg";
 export default function Home() {
   return (
     <main className="flex text-center flex-col items-center gap-8 p-4">
-      <h1 className="text-4xl font-bold">Own your notes.</h1>
+      <h1 className="text-4xl font-bold mt-2">Own your notes.</h1>
       <p className="text-muted-foreground max-w-[75ch]">
         Feel free to take notes, create todos, and manage your tasks while we make sure its secure and safe and
         accessible only to you.
       </p>
+      []
       <SignedOut>
         <SignInButton>
           <Button size={"lg"}>Sign in</Button>

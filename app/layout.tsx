@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ClerkProvider>
-        <body className={"min-h-screen w-full bg-neutral-50 text-neutral-700 " + lexend.className}>
+        <body className={"min-h-screen w-full " + lexend.className}>
           <Navbar></Navbar>
           {children}
         </body>

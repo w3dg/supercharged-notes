@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="flex justify-between px-6 py-4 items-center shadow-md">
       <span>
         <Link href={"/"}>
-          <h2 className="text-lg">SuperchargedNotes</h2>
+          <h2 className="text-lg font-bold text-slate-800">SuperchargedNotes</h2>
         </Link>
       </span>
       <SignedOut>
@@ -21,6 +21,9 @@ const Navbar = () => {
       </SignedOut>
       <SignedIn>
         <nav className="flex gap-2 items-center">
+          <Button variant={"link"} asChild>
+            <Link href={"/notes"}>Your notes</Link>
+          </Button>
           <UserButton />
         </nav>
       </SignedIn>

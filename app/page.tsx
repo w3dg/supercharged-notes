@@ -14,7 +14,6 @@ export default function Home() {
         Feel free to take notes, create todos, and manage your tasks while we make sure its secure and safe and
         accessible only to you.
       </p>
-      []
       <SignedOut>
         <SignInButton>
           <Button size={"lg"}>Sign in</Button>

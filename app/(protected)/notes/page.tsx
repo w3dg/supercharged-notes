@@ -2,7 +2,6 @@ import Image from "next/image";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import { PlusCircle, Pencil, Trash2 } from "lucide-react";
-import dayjs from "dayjs";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";

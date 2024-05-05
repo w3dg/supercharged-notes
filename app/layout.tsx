@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
-import { Lexend } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
 
 import "./globals.css";
 import Navbar from "./components/Navbar";
-
-const lexend = Lexend({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ClerkProvider>
-        <body className={"min-h-screen w-full " + lexend.className}>
+        <body className={"min-h-screen w-full " + GeistSans.className}>
           <Navbar></Navbar>
           {children}
           <Toaster />

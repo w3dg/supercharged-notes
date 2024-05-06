@@ -17,7 +17,7 @@ The Supercharged Notes project is a Next.js application that allows users to cre
 ## Demo
 
 <video width="720" loop controls>
-  <source src="https://i.imgur.com/apMYli4.mp4" type="video/mp4" />
+  <source src="./readme-assets/demo.mp4" type="video/mp4" />
 </video>
 
 ## Getting Started

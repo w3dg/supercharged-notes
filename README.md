@@ -14,6 +14,12 @@ The Supercharged Notes project is a Next.js application that allows users to cre
 
 **Docker** is also used for spinning up a [PostgreSQL Database](https://www.postgresql.org/). See [`docker-compose.yml`](./docker-compose.yml)
 
+## Demo
+
+<video width="720" loop controls>
+  <source src="https://i.imgur.com/apMYli4.mp4" type="video/mp4" />
+</video>
+
 ## Getting Started
 
 ### Setting up environment

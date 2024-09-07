@@ -16,6 +16,8 @@ The Supercharged Notes project is a Next.js application that allows users to cre
 
 ## Demo
 
+<video src="https://i.imgur.com/apMYli4.mp4"></video>
+
 Watch a demo on Twitter/X [here](https://twitter.com/its_not_dg/status/1787175957717008617) Imgur [here](https://imgur.com/apMYli4)
 
 ## Getting Started
